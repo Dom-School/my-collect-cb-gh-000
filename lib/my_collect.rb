@@ -1,8 +1,8 @@
 def my_collect(array)
-  coutner = 0
+  count = 0
   result = []
-  while coutner < array.size
-    result << yield(array[coutner])
+  while count < array.size
+    result << yield(array[count])
     counter += 1
   end
   result
